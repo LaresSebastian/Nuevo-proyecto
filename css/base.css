@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#Inicio {
+  font-family: "Brush Script MT";
+  background-color: wheat;
+  color: black;
+  overflow-x: hidden;
+  padding: 5px;
+  font-size: x-large;
+  background-image: url(../objetos/Imagen-de-pantalla-principal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: transparent;
+  object-position: center;
+  padding: 0;
+  margin: 100px;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  filter: brightness(75%);
+}
+
+@media screen and (max-width: 500px) {
+  .offcanvas {
+    background-image: url("../objetos/logo.ico");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+header {
+  height: 100%;
+  background-color: rgb(59, 61, 187);
+  text-shadow: white, 9px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 420px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px rgba(211, 211, 211, 0.8196078431);
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+
+.titulo {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+
+.cuerpo {
+  padding: 10px;
+}
+
+.pie {
+  background: #6699ff;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pie a {
+  text-decoration: none;
+  color: white;
+}
+
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+.tarjestas {
+  display: flex;
+  position: center;
+}
+
+/*# sourceMappingURL=base.css.map */
