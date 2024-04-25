@@ -1,25 +1,114 @@
-.tarjetas {
+.wrap{
+  width: 1200px;
+  margin: 25px;
   display: flex;
-  flex-direction: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 850px;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 4px 4px #d3d3d3d1;
-  border-radius: 15px;
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: 25px;
+}
+.tarjeta-wrap{
+  margin: 10px;
+  -webkit-perspective: 800;
+  perspective: 800;
 }
 
-.card {
-  flex: 1;
-  margin-bottom: 20px;
+.tarjeta{
+  width: 600px;
+  height: 450px;
+  background: orangered;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .9s ease;
+  -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 }
 
-.card-img-top {
+.adelante, .atras{
+  width: 600px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.adelante{
   width: 100%;
-  height: 250px;
+}
+
+.atras{
+  transform: rotateY(180deg);
+  /*padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;*/
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+  transform: rotateY(180deg);
+}
+
+h1{
+  align-items: flex-start;
+  justify-content: center;
+}
+p{
+  font-size: x-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.precios{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: end;
+}
+
+.precios li{
+  margin: 0 10px;
+}
+
+.card1{
+  background-image: url(../objetos/MASAJES-RELAJANTE.jpeg);
+  background-size: cover;
+}
+.card2{
+  background-image: url(../objetos/masaje-descontracturante.jpeg);
+  background-size: cover;
+}
+.card3{
+  background-image: url(../objetos/maderoterapia.jpg);
+  background-size: cover;
+}
+.card4{
+  background-image: url(../objetos/mejor-electroestimulador-muscular.jpeg);
+  background-size: cover;
+}
+.card5{
+  background-image: url(../objetos/piedras\ calientes.jpg);
+  background-size: cover;
+}
+.card6{
+  background-image: url(../objetos/masaje-reductor.jpg);
+  background-size: cover;
+}
+.card7{
+  background-image: url(../objetos/drenaje-linfatico-manual.jpg);
+  background-size: cover;
+}
+.card8{
+  background-image: url(../objetos/masaje-con-lampara.jpg);
+  background-size: cover;
+}
+.card9{
+  background-image: url(../objetos/Masaje-circulatorio.jpeg);
+  background-size: cover;
+}
+.card10{
+  background-image: url(../objetos/vendas-frias.jpg);
+  background-size: cover;
 }
