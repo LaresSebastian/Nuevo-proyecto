@@ -12,8 +12,8 @@
   padding: 5px;
   font-size: x-large;
   background-image: url(../objetos/Imagen-de-pantalla-principal.jpg);
-  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -232,6 +232,12 @@ p {
 
 #clearSelection:hover, #finalizeSelection:hover {
   background-color: #0056b3;
+}
+
+#mp {
+  background-image: url(../objetos/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=base.css.map */

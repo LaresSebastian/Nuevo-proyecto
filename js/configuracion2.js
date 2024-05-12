@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
     finalizeSelectionBtn.addEventListener('click', function() {
         if (selectedDateTime) {
             // Redirigir a la página de pago
-            window.location.href = 'pagina_de_pago.html';
+            window.location.href = '../internos/simil_mp.html';
         } else {
             alert('Por favor selecciona una fecha y hora antes de finalizar.');
         }
