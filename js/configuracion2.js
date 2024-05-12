@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Obtener la referencia al elemento del calendario
-    var calendar = document.getElementById('calendar');
-    var clearSelectionBtn = document.getElementById('clearSelection');
-    var finalizeSelectionBtn = document.getElementById('finalizeSelection');
+    let calendar = document.getElementById('calendar');
+    let clearSelectionBtn = document.getElementById('clearSelection');
+    let finalizeSelectionBtn = document.getElementById('finalizeSelection');
 
     // Crear una fecha inicial (puede ser la fecha actual)
     var currentDate = new Date();

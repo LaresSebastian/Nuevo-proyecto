@@ -240,4 +240,10 @@ p {
   background-repeat: no-repeat;
 }
 
+#contacto {
+  background-image: url(../objetos/tinified/telefono.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=base.css.map */
